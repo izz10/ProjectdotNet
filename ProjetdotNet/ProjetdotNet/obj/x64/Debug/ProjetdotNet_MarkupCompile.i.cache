@@ -4,7 +4,7 @@
 winexe
 C#
 .cs
-C:\Users\Mouhcine\Desktop\ENSIMAG\IF 3A\Pr.NET\ProjectdotNet\ProjetdotNet\ProjetdotNet\obj\Debug\
+C:\Users\Mouhcine\Desktop\ENSIMAG\IF 3A\Pr.NET\ProjectdotNet\ProjetdotNet\ProjetdotNet\obj\x64\Debug\
 ProjetdotNet
 none
 false
@@ -12,9 +12,9 @@ DEBUG;TRACE
 C:\Users\Mouhcine\Desktop\ENSIMAG\IF 3A\Pr.NET\ProjectdotNet\ProjetdotNet\ProjetdotNet\App.xaml
 11892971807
 
-10-991714320
+10-1497617189
 131569487696
 Views\MainWindow.xaml;
 
-False
+True
 
