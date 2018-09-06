@@ -21,6 +21,18 @@
                 </DataTemplate>
             </ComboBox.ItemTemplate>
         </ComboBox>
+        <TextBox HorizontalAlignment="Left" Height="21" Margin="322,183,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="157"/>
+        <TextBox HorizontalAlignment="Left" Height="21" Margin="322,183,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="157"/>
+        <TextBox HorizontalAlignment="Left" Height="30" Margin="322,337,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="157" TextChanged="TextBox_TextChanged"/>
+        <ComboBox HorizontalAlignment="Left" Height="34" Margin="322,398,0,0" VerticalAlignment="Top" Width="157" ItemsSource="{Binding DataType}" SelectionChanged="ComboBox_SelectionChanged_1">
+            <ComboBox.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock Text="{Binding }" />
+                </DataTemplate>
+            </ComboBox.ItemTemplate>
+        </ComboBox>
+        <DatePicker HorizontalAlignment="Left" Height="28" Margin="322,260,0,0" VerticalAlignment="Top" Width="157"/>
+        <Button Content="Executer&#xD;&#xA;" Command="{Binding ExecuteCommand}" HorizontalAlignment="Left" Height="47" Margin="282,620,0,0" VerticalAlignment="Top" Width="197"/>
 
     </Grid>
 </Window>
