@@ -9,9 +9,11 @@ namespace ProjetdotNet.DataSimu
 {
     class Pf
     {
+        double[] Deltas;
+
         Dictionary<string, decimal> Composition;
 
-        decimal cash_sr;
+        decimal Cash_sr;
 
         DateTime CashInvestementDate;
 
